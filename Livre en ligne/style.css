@@ -1,0 +1,284 @@
+/* Body */
+
+body{
+    font-family: 'Apple Garamond';
+    margin: 0;
+    padding: 0;
+}
+
+/* Grille */
+
+.parent{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+    
+.div1{
+    background-color: white;
+    grid-area: 1 / 1 / 2 / 6;
+    height: auto;
+}
+
+.div2{
+    background-color: #5D8AA8;
+    color: #FEFEFE;
+    grid-area: 2 / 1 / 3 / 6;
+    height: auto;
+}
+
+.div3{
+    background-image: url(img/Développement.jpg);
+    display: grid;
+    grid-area: 3 / 1 / 4 / 4;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+}
+
+.div4{
+    background-color: rgb(28, 178, 168);
+    color: #FEFEFE;
+    grid-area: 3 / 4 / 4 / 6;
+    height: auto;
+}
+
+.div5{
+    background-color: #1055c4;
+    color: #FEFEFE;
+    grid-area: 4 / 1 / 5 / 3;
+    height: auto;
+}
+
+.div6{
+    background-image: url(img/Communication.jpg);
+    display: grid;
+    grid-area: 4 / 3 / 5 / 6;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+}
+
+.div7{
+    background-image: url(img/Audiovisuel.jpg);
+    display: grid;
+    grid-area: 5 / 1 / 6 / 4;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: auto;
+}
+
+.div8{
+    background-color: rgb(0, 13, 71);
+    color: #FEFEFE;
+    grid-area: 5 / 4 / 6 / 6;
+    height: auto;
+}
+
+.div9{
+    background-color: #000010;
+    color: #FEFEFE;
+    grid-area: 6 / 1 / 7 / 6;
+    height: auto;
+}
+
+/* Menu */
+
+a, a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #1055c4;
+}
+
+button{
+    background-color: #1055c4;
+    border: 0 solid #1055c4;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Apple Garamond';
+    margin-bottom: 10vh;
+    width: 8vw;
+}
+
+button:hover{
+    background-color: rgb(0, 13, 71);
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+.div11{
+    grid-area: 1 / 1 / 2 / 2;
+    height: 20vh;
+}
+
+.div12{
+    grid-area: 1 / 2 / 2 / 3;
+    height: 20vh;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.div13{
+    grid-area: 1 / 3 / 2 / 4;
+    height: 20vh;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.div14{
+    grid-area: 1 / 4 / 2 / 5;
+    height: 20vh;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.div15{
+    grid-area: 1 / 5 / 2 / 6;
+    height: 20vh;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+.div16{
+    grid-area: 1 / 6 / 2 / 7;
+    height: 20vh;
+    text-align: center;
+    padding-top: 6vh;
+}
+
+
+.logo{
+    /* height: 50%; */
+    padding-left: 2vw;
+    padding-top: 5vh;
+    width: 50%;
+}
+
+/* Textes */
+
+h1{
+    font-size: calc(1.25vw + 1.25vh + 1.25vmin);
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+}
+
+h2{
+    font-size: calc(0.5vw + 0.5vh + 0.5vmin);
+}
+
+.p1{
+    font-size: calc(1.5vw + 1.5vh + 1vmin);
+    line-height: 150%;
+    padding-left: 5vw;
+    padding-top: 10vh;
+}
+
+.p2{
+    font-size: calc(0.8vw + 0.8vh + 0.8vmin);
+    padding-left: 5vw;
+    padding-top: 25vh;
+}
+
+.p3{
+    font-size: calc(0.8vw + 0.8vh + 0.8vmin);
+    padding-left: 5vw;
+    padding-right: 10vh;
+    padding-top: 1vh;
+}
+
+.p4{
+    font-size: calc(3vw + 3vh + 2vmin);
+    padding-top: 5vh;
+}
+
+/* Grille 3 */
+
+.div31{
+    background-color: rgb(28, 178, 168);
+    grid-area: 2 / 2 / 5 / 4;
+    opacity: 0.8;
+}
+
+/* Grille 6 */
+
+.div61{
+    background-color: #1055c4;
+    grid-area: 2 / 2 / 5 / 4;
+    opacity: 0.8;
+}
+
+/* Grille 7 */
+
+.div71{
+    background-color: rgb(0, 13, 71);
+    grid-area: 2 / 2 / 5 / 4;
+    opacity: 0.8;
+}
+
+/* Grille 9 */
+
+a{
+    margin-right: 5vw;
+}
+
+.div91{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-left: 5vw;
+    margin-top: 7.5vh;
+}
+
+/* .div911, .div912, .div913, .div914{
+    align-items: flex-start;
+    display: flex;
+} */
+
+/* Images */
+
+.mail{
+    width: 4vw;
+}
+.tel{
+    margin-top: 1.5vh;
+    width: 2vw;
+}
+
+/* Contact */
+
+.button2{
+    background-color: #1055c4;
+    border: 0 solid #1055c4;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Apple Garamond';
+    margin-top: 1vh;
+    width: 15vw;
+}
+
+.button2:hover{
+    background-color: rgb(28, 178, 168);
+}
